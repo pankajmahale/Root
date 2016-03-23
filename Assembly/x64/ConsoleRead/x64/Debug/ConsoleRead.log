@@ -1,0 +1,2 @@
+﻿Source.obj : error LNK2019: unresolved external symbol ReadConsole referenced in function main
+C:\Code\x64 Assembly\x64-Assembly\x64\Debug\ConsoleRead.exe : fatal error LNK1120: 1 unresolved externals

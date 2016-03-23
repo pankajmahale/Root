@@ -1,0 +1,4 @@
+﻿  Assembling asm.asm...
+  stdafx.cpp
+  MinMax.cpp
+  MinMax.vcxproj -> C:\Code\x64 Assembly\x64-Assembly\x64\Debug\MinMax.exe
