@@ -12,13 +12,13 @@
 ;
 ;
 
-
- 
-
-
 .code
 GetValueFromASM proc
 	mov rax, 1000
 	ret
 GetValueFromASM endp
+
+
+
 end
+

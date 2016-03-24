@@ -1,0 +1,29 @@
+4.1.2 Conditional Jumps
+
+The following table lists the most common jump instructions and the tests they perform:
+
+Instruction	Jump Condition	Test
+JE	Jump if Equal	ZF=1
+JNE	Jump if Not Equal	ZF=0
+JG	Jump if Greater	(ZF=0) AND (SF=OF)
+JGE	Jump if Greater or Equal	SF=OF
+JL	Jump if Less	SF?OF
+JLE	Jump if Less or Equal	(ZF=1) OR (SF?OF)
+The following conditional branches are similar to the above but involve comparisons which treat the operands as unsigned integers:
+
+Instruction	Jump Condition	Test
+JA	Jump if Above	(CF=0) AND (ZF=0)
+JAE	Jump if Above or Equal	CF=0
+JB	Jump if Below	CF=1
+JBE	Jump if Below or Equal	(CF=1) OR (ZF=1)
+Finally, the branches below specifically test flags:
+
+Instruction	Jump Condition	Test
+JO	Jump on Overflow	OF=1
+JNO	Jump on No Overflow	OF=0
+JC	Jump on Carry	CF=1
+JNC	Jump on No Carry	CF=0
+JS	Jump on Sign (Negative)	SF=1
+JNS	Jump on No Sign (Positive)	SF=0
+JZ	Jump if Zero (same as JE)	ZF=1
+JNZ	Jump if Not Zero	ZF=0
