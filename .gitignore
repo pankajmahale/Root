@@ -196,3 +196,9 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+/Assembly/x64/*.db
+/High Performence Computing/OpenMP/*.db
+*.exe
+*.lnk
+*.db
+*.lst

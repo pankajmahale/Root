@@ -8,17 +8,11 @@
 ;
 ;AF/AC			NA						NA    (for BCD)
 ;
-;
-;
-;
 
 .code
 GetValueFromASM proc
 	mov rax, 1000
 	ret
 GetValueFromASM endp
-
-
-
 end
 

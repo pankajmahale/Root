@@ -5,7 +5,7 @@
 // BTR  = bit test and reset
 // BTS  = bit test and set
 // No 8 bit version and index start from 0
-//
+//https://www.youtube.com/watch?v=en_7DtfT8Cg&index=31&list=PL0C5C980A28FEE68D
 extern "C" void funBT();
 extern "C" void funBC();
 extern "C" void funBTR();

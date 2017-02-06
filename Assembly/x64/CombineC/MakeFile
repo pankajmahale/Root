@@ -1,0 +1,31 @@
+#complier settings
+# /P  Preprocess to a File eg HelloWorld.i
+CC=cl
+CFLAG=/c /ZI 
+
+#Assembler
+ASM=ml64.exe /DWIN_X64 /Zi /c 
+#/Cp /Fl
+
+
+#linker settings
+LL=link
+LFLAG=/SUBSYSTEM:CONSOLE /OUT:HelloWorld.exe /MACHINE:X64 /DEBUG /PDB:".\HelloWorld.pdb"
+
+all:Source
+
+Source: CombineC.obj function.obj
+	$(LL) CombineC.obj $(LFLAG)
+CombineC.obj: CombineC.cpp
+	$(CC)$(CFLAG) CombineC.cpp
+	
+function.obj: function.asm
+	$(ASM) function.asm
+clean:
+	del *.obj
+	del *.ilk
+	del *.pdb
+	del *.i
+	del *.asm
+	del *.exe
+	del *.idb

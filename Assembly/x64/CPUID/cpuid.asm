@@ -30,10 +30,10 @@ GetVendorString proc
 	mov dword ptr [rax],ebx
 	mov dword ptr [rax+4],edx
 	mov dword ptr [rax+8],ecx
-	pop rbx
+	pop rbx 
 	ret
 GetVendorString endp
-
+    
 GetLogicalProcessor proc
 	push rbx
 	mov rax, 1
@@ -44,4 +44,15 @@ GetLogicalProcessor proc
 	shr eax,16 ; shift the answer to the right for printning
 	ret
 GetLogicalProcessor endp
+
+JumpTest proc
+	 xor rax,rax
+	 mov rax, MyLabel
+	 lea rax, MyLabel
+	 jmp MyLabel+16
+	 mov rax,100
+MyLabel:
+	 mov rax,200
+	  
+JumpTest endp
 end

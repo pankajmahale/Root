@@ -5,7 +5,7 @@ using namespace std;
 extern "C" bool GetCUPIDSupport();
 extern "C" char*  GetVendorString();
 extern "C" int  GetLogicalProcessor();
-
+extern "C" void JumpTest();
 int main(int argc, char** argv)
 {
 	if (!GetCUPIDSupport())
@@ -16,6 +16,10 @@ int main(int argc, char** argv)
 	cout <<"CPU supports CPUI instuction" <<endl;
 	cout <<"CUP is : "<< GetVendorString() << endl;
 	cout << "Logical Processor is : " << GetLogicalProcessor() << endl;
+
+	JumpTest();
 	cin.get();
+
+
 	return 0;
 }

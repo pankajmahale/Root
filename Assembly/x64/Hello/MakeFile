@@ -1,0 +1,8 @@
+all:build
+	
+build: hello.asm
+	ml64 Hello.asm /link /subsystem:windows /defaultlib:kernel32.lib /defaultlib:user32.lib /entry:Start
+clean:
+	del *.obj
+	del *.exe
+	del mllink*
