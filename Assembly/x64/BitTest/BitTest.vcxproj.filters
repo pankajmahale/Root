@@ -20,8 +20,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <MASM Include="asm.asm">
       <Filter>Source Files</Filter>
     </MASM>
+=======
+    <None Include="asm.asm">
+      <Filter>Source Files</Filter>
+    </None>
+>>>>>>> b193567... Missing files added
   </ItemGroup>
 </Project>

@@ -104,7 +104,10 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+<<<<<<< HEAD
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+=======
+>>>>>>> b193567... Missing files added
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

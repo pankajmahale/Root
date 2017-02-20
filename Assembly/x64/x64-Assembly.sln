@@ -29,7 +29,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataTypes", "DataTypes\Data
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mul_Div", "Mul_Div\Mul_Div.vcxproj", "{4129FC7A-EC36-47CB-B700-F123E277A027}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shift", "Rotate\Rotate.vcxproj", "{14D19943-2C0B-4E4F-8CF1-8FAF31C55603}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shift_Rotate", "Rotate\Rotate.vcxproj", "{14D19943-2C0B-4E4F-8CF1-8FAF31C55603}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loop", "Loop\Loop.vcxproj", "{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,6 +153,14 @@ Global
 		{14D19943-2C0B-4E4F-8CF1-8FAF31C55603}.Release|x64.Build.0 = Release|x64
 		{14D19943-2C0B-4E4F-8CF1-8FAF31C55603}.Release|x86.ActiveCfg = Release|Win32
 		{14D19943-2C0B-4E4F-8CF1-8FAF31C55603}.Release|x86.Build.0 = Release|Win32
+		{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}.Debug|x64.ActiveCfg = Debug|x64
+		{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}.Debug|x64.Build.0 = Debug|x64
+		{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}.Debug|x86.ActiveCfg = Debug|Win32
+		{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}.Debug|x86.Build.0 = Debug|Win32
+		{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}.Release|x64.ActiveCfg = Release|x64
+		{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}.Release|x64.Build.0 = Release|x64
+		{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}.Release|x86.ActiveCfg = Release|Win32
+		{222BCE5C-800D-4A4A-80CC-CC44E8F22D1B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
