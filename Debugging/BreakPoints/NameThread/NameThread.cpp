@@ -35,7 +35,7 @@ void SetThreadName(DWORD dwThreadID, LPCSTR szThreadName)
 }
 int main()
 {
- 	SetThreadName(GetCurrentThreadId(), "Pankaj");
-    return 0;
+	SetThreadName(GetCurrentThreadId(), "Pankaj");
+	return 0;
 }
 
