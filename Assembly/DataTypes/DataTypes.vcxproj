@@ -153,7 +153,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="asm.asm" />
+    <MASM Include="asm.asm">
+      <FileType>Document</FileType>
+    </MASM>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
