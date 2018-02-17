@@ -19,9 +19,11 @@ qword2 dq ?
 ; real4:  1-bit Sign bit, 8 bit Exponent,  23-bit Mentissa.
 ; real8:  1-bit Sign bit, 11 bit Exponent, 52-bit Mentissa.
 ; real10: 1-bit Sign bit, 15 bit Exponent, 64-bit Mentissa. (used with x87 FPU,it's ignored now a days)
-vr4   real4 8.6
-vr8   real8 7.6
-vr10  real10 8.6
+vr4    real4 8.6
+vr8    real8 7.6
+vr10   real10 8.6
+var10x TBYTE	
+var10  DT
 
 ; SIMD data Type
 ; xmmword: XMM
