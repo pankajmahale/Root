@@ -202,3 +202,5 @@ $RECYCLE.BIN/
 *.lnk
 *.db
 *.lst
+/Assembly/x64/.vs/x64-Assembly/v15/*.db-shm
+/Assembly/x64/.vs/x64-Assembly/v15/*.db-wal
